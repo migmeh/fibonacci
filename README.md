@@ -15,3 +15,20 @@ npm install
 npm start
 ```
 
+### Example:
+
+In Postman, create a new request.
+Set the base URL to http://localhost:3000.
+Choose the HTTP method "GET".
+In the URL field, append the endpoint path /6 after the base URL.
+Click "Send".
+If your service is running correctly, you should see a JSON response in the "Response" tab, similar to:
+
+JSON
+
+```
+{
+  "fibonacci": 8
+}
+
+```
